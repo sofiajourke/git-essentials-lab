@@ -2,7 +2,7 @@ package library;
 
 public class LoanPolicy {
 
-    public int maxBooks(MemberType type) {
+public int maxBooks(MemberType type) {
         if (type == MemberType.STUDENT) return 3;
         if (type == MemberType.FACULTY) return 5;
         return 2;
